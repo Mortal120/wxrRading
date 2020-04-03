@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="index">
+  <view class="card-item" wx:for="{{cardList}}" wx:key="index">
+    <image class="card-img" src="{{item.img}}"></image>
+    <view class="top">
+      <view>
+        <view class="top-left">{{item.title}}</view>
+        <view class="top-lefts">{{item.subTitle}}</view>
+      </view>
+      <view class="top-right"  bindtap="into" id="{{index}}">{{item.text}}</view>
+    </view>
+  </view>
+  <view class="bottom-title">你还可以通过"阅读时长积累"获得无限卡</view>
+  <text style="font-size:20rpx;color:#cccccc">阅读即送无限卡。阅读时间越长，赠送无限卡越多。每周最多可赠送四天无限卡</text>
+</view>
+
+ 
+

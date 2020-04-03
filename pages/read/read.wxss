@@ -1,0 +1,53 @@
+.read{
+  padding: 30rpx;
+}
+.weui-input{
+  margin-bottom: 20rpx;
+  border-radius: 30rpx;
+  height: 70rpx;
+  background-color: #f1f3f5
+}
+.card{
+  background-color: #4c566a;
+  border-radius: 20rpx;
+  padding: 20rpx 0 20rpx 20rpx;
+  
+}
+.card-title{
+  margin-top:20rpx;
+  margin-bottom: 20rpx;
+  color: #fff;
+  font-size: 20rpx
+}
+.card-img{
+  width: 120rpx;
+  height: 160rpx
+}
+.card-title-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+.card-tabbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;
+  color: #ccc;
+  
+}
+.card-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.card-info{
+  margin-left: 20rpx;
+}
+
+.book-info{
+  color:#ccc;
+  font-size:20rpx;
+  padding: 10rpx;
+}

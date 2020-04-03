@@ -1,0 +1,18 @@
+<!--pages/video/video.wxml-->
+<view class="video">
+  <view wx:for="{{videoList}}" wx:key="index">
+    <image src="{{item.imgUrl}}" class="video-image" bindtap="clickimg"></image>
+    <view class="video-content">
+      <view class="video-title">{{item.title}}</view>
+      <view class="video-author">
+        <view style="font-size:0.8em;color:#ccc;">{{item.name}}</view>
+        <view class="video-share">
+          <image src="/static/image/heart.png" style="width:40rpx;height:40rpx;margin-right:20rpx"></image>
+          <view class="share" bindtap="share">发送给朋友</view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+</view>

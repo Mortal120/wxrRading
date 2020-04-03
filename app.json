@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/read/read",
+    "pages/video/video",
+    "pages/card1/card1"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "福利",
+        "iconPath": "/static/index.png",
+        "selectedIconPath": "/static/indexs.png"
+      },
+      {
+        "pagePath": "pages/read/read",
+        "text": "免费阅读",
+        "iconPath": "/static/read.png",
+        "selectedIconPath": "/static/reads.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频",
+        "iconPath": "/static/video.png",
+        "selectedIconPath": "/static/videos.png"
+      }
+    ],
+    "backgroundColor": "#EEEEEE",
+    "color": "#6F6F6F",
+    "selectedColor": "#4A53F5"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信读书",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,50 @@
+<!--pages/read/read.wxml-->
+<view class="read">
+<!-- 头部的input输入框 -->
+     <input  class="weui-input"  maxlength="10"  placeholder="斗罗大陆"/>
+     <!-- 卡片区域 -->
+     <view class="card">
+      <view class="card-title">无限卡免费阅读，剩余1天</view>
+      <view class="card-title-info">
+        <image class="card-img" src="/static/image/0.jpg"></image>
+        <text style="color:#fff;font-size:25rpx">书架></text>
+      </view>
+     </view>
+     <!-- 分类区域 -->
+     <view>
+      <view class="card-tabbar" >
+        <view wx:for="{{tabbarList}}" wx:key="index" >
+          <view 
+          style="{{item.id===tabbarIndex ?'color:#4dabf7' : ''}}"
+          bindtap="clicktab"
+          id="{{item.id}}"
+          >{{item.name}}</view>
+        </view>
+      </view>
+      <view>
+      <block wx:for="{{category}}" wx:key="index">
+        <block wx:if="{{item.id==tabbarIndex}}">
+          <block wx:if="{{item.data.length>0}}">
+            <view class="card-item" wx:for-item="k" wx:for="{{item.data}}" wx:key="index">
+              <image src="{{k.imgUrl}}"  class="card-img"></image>
+              <view class="card-info">
+                <view class="book-title">{{k.name}}</view>
+                <view class="book-info">{{k.author}}|{{k.grade}}</view>
+                <view class="book-info">{{k.scribe}}</view>
+              </view>
+            </view>
+          </block>
+          <view  wx:else>暂无数据</view>
+        
+          
+        </block>
+        
+        
+        
+      </block>
+
+        
+
+      </view>
+     </view>
+</view>

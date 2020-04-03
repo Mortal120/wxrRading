@@ -1,0 +1,27 @@
+<view class="card1">
+  <view class="c-content">
+    <view class="c-title">组队读书</view>
+    <view class="c-title" >组队抽取无限卡</view>
+    <text style="margin-top:40rpx 0;color:#ccc; font-size:25rpx">第78期  03.28-04.04</text>
+    <view class="detai-item">
+      <view class="subtitle">1.奖品为3天、5天、7天、30天、365天</view>
+      <view class="subtitle">2.队伍满员后,奖品为3天、5天、7天、30天、365天奖品为3天、5天、7天、30天、365天</view>
+      <view class="subtitle">2.队伍满员后</view>
+      <view class="subtitle">2.队伍满员后</view>
+      <view class="subtitle">2.队伍满员后</view>
+    </view>
+  </view>
+  <!-- 白色区域 -->
+  <view class="add-content">
+    <view style="font-size:30rpx">本周组队还差四人</view>
+    <view class="image-item"> 
+      <image src="/static/image/cat.jpg" class="image-avator"></image>
+      <image src="/static/image/cat.jpg" class="image-avator"></image> 
+      <image class="image-avator"></image>
+      <image class="image-avator"></image>
+      <image class="image-avator"></image>
+    </view>
+    <view class="add-friend">邀请好友加入队伍</view>
+    <view class="date-end">本期开奖时间为4月4日中午12：00</view>
+  </view>
+</view>
